@@ -74,3 +74,40 @@ button {
     font-weight: bold;
     margin-top: 8px;
 }
+
+.content {
+    padding: 0 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    flex: 1;
+    max-width: 140px;
+    height: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
