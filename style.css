@@ -1,3 +1,7 @@
+body {
+    padding: 0;
+}
+
 header {
     background-color: #1F2937;
     font-family: 'roboto' sans-serif;
@@ -40,7 +44,7 @@ h1 {
     margin: 0px;
 }
 
-.hero, a {
+.hero, a, footer {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -156,4 +160,14 @@ h3 {
 .sign-up > button {
     border-style: solid;
     border-width: 3px;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 40px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
